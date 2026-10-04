@@ -4,7 +4,7 @@ nice_hist <- function(x) {
 
   library(ggplot2)
   ggplot(data.frame(x = x), aes(x)) +
-    geom_histogram(bins = bins, fill = fill, color = "white") +
+    geom_histogram(color = "white") +
     geom_vline(xintercept = m,  color = "red",       linetype = "dashed", linewidth = 1) +
     geom_vline(xintercept = md, color = "darkgreen", linetype = "dotted", linewidth = 1)
 }
