@@ -1,1 +1,2 @@
-exportPattern("^[[:alpha:]]+")
+export(cheat)
+export(nice_hist)
